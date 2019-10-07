@@ -1,0 +1,30 @@
+{
+  "name": "ticket-block",
+  "version": "1.0.0",
+  "description": "Ticket diploma certificado por blockchain",
+  "main": "app.js",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "bs58": "^4.0.1",
+    "buffer": "^5.0.8",
+    "ejs": "^2.5.7",
+    "express": "^4.16.2",
+    "ipfs": "^0.27.7",
+    "ipfs-api": "^17.5.0",
+    "moment": "^2.0.0",
+    "node-gyp": "^6.0.0",
+    "path": "^0.12.7",
+    "web3": "^1.0.0-beta.34"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "keywords": [
+    "Blockchain",
+    "Ethereum",
+    "IPFS"
+  ],
+  "author": "Javier Chacón",
+  "license": "ISC"
+}
